@@ -1,0 +1,43 @@
+{
+  "name": "appui",
+  "description": "UI Template Framework",
+  "main": "",
+  "authors": [
+    "mmv"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "bootstrap",
+    "admin",
+    "dashboard",
+    "backend",
+    "frontend",
+    "ui",
+    "framework",
+    "template",
+    "theme"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ngtouch": "^1.0.1",
+    "angular-touch": "^1.5.5",
+    "pubnub": "^3.14.5",
+    "pubnub-angular": "^3.1.2",
+    "ng-table": "^0.8.3",
+    "angularfire": "^1.2.0",
+    "angular-toastr": "^1.7.0",
+    "ng-marviluz": "ng-material#^0.0.4",
+    "underscore": "^1.8.3",
+    "aws-sdk": "^2.3.10",
+    "ng-flow": "^2.7.1",
+    "fusty-flow.js": "^1.2.0",
+    "toastr": "^2.1.2"
+  }
+}

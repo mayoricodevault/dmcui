@@ -1,0 +1,11 @@
+<div class="block">
+    <div class="block-content" ng-repeat="choice in survey.choices">
+        <label ng-if="choice.selected" class="css-input css-radio css-radio-lg css-radio-primary push-10-r">
+            <input type="checkbox" name="survey[]" value="{{choice.id}}" ng-click="toggleSelection(choice.id)" checked ><span></span> {{choice.statement}}
+
+        </label>
+        <label ng-if="!choice.selected" class="css-input css-radio css-radio-lg css-radio-primary push-10-r">
+            <input  type="checkbox" name="survey[]" value="{{choice.id}}" ng-click="toggleSelection(choice.id)"><span></span> {{choice.statement}}
+        </label>
+    </div>
+</div>

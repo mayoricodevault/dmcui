@@ -1,0 +1,74 @@
+md-sidenav{
+    width:256px !important;
+    min-width:256px !important;
+    max-width:256px !important;
+}
+
+.md-button{
+    text-transform: none;
+}
+md-input-container.md-default-theme label, md-input-container.md-default-theme .md-placeholder{
+    color:#9E9E9E;
+    font-weight:bold;
+}
+
+md-input-container.md-default-theme .md-input {
+    border-color:#E0E0E0;
+}
+.md-input-focused {
+    border-color:black;
+    color:black;
+}
+
+.picker__select--month, .picker__select--year{
+    height:70px !important;
+}
+[layout="column"] > [fill] {
+    width: 100%;
+}
+[layout="row"] > [fill] {
+    width: 100%;
+}
+md-input-group input{
+    width:100%;
+    font-size: 1.2em;
+}
+md-input-group label{
+    color:#781649 !important;
+}
+md-switch.md-default-theme.md-checked .md-thumb{
+    background-color:#4CAF50;
+}
+md-switch.md-default-theme.md-checked .md-bar{
+    background-color:#C8E6C9;
+}
+md-switch.md-default-theme .md-thumb{
+    background-color:#F44336;
+}
+md-switch.md-default-theme .md-bar{
+    background-color:#FFCDD2;
+}
+md-switch{
+    margin:0 !important  ;
+}
+md-checkbox.md-default-theme.md-checked .md-icon{
+    background-color:#4CAF50;
+}
+md-checkbox .md-label{
+    border:0;
+}
+md-checkbox .md-container{
+    top:0px;
+}
+
+.md-button{
+    min-width:0;
+    margin:0 !important;
+    font-size:1em;
+}
+md-icon{
+    font-size:0 !important;
+}
+.md-fab{
+    font-size:0 !important;
+}

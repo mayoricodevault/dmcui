@@ -1,0 +1,44 @@
+{
+  "name": "ng-marviluz",
+  "version": "0.0.4",
+  "dependencies": {
+    "angular": "^1.3.0 || >1.4.0-beta.0",
+    "angular-animate": "^1.3.0 || >1.4.0-beta.0",
+    "angular-aria": "^1.3.15 || >1.4.0-beta.0",
+    "angular-material": "0.9.0"
+  },
+  "homepage": "https://github.com/marviluz/ng-marviluz",
+  "authors": [
+    "Thiago Kroger"
+  ],
+  "description": "Javascript Framework Angular Based",
+  "main": [
+    "ng-marviluz.js",
+    "ng-marviluz.css"
+  ],
+  "keywords": [
+    "[\"angular\"",
+    "\"material\"",
+    "\"framework\"",
+    "\"tools\"",
+    "\"responsive\"]"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.4",
+    "commit": "443c18b73715ff482228a968e242a18507a406fb"
+  },
+  "_source": "https://github.com/marviluz/ng-marviluz.git",
+  "_target": "^0.0.4",
+  "_originalSource": "ng-material",
+  "_direct": true
+}

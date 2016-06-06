@@ -1,0 +1,38 @@
+{
+  "surveys": [
+    {
+      "id": 2010,
+      "categoryId": 100,
+      "statement": "What is on you mind.. tell us",
+      "description": "Multiple answer with checkbox and an aside image example.",
+      "choices": [
+        {
+          "id": 10,
+          "statement": "NO cans to collect trash",
+          "selected": false
+        },
+        {
+          "id": 20,
+          "statement": "Pick ups are not always in time",
+          "selected": false
+        },
+        {
+          "id": 30,
+          "statement": "No enough times schedule to collect",
+          "selected": false
+        },
+        {
+          "id": 40,
+          "statement": "Truck Collectors are always off time",
+          "selected": false
+        },
+        {
+          "id": 50,
+          "statement": "People tha collect trush are not always helpfull",
+          "selected": false
+        }
+      ],
+      "points": 8
+    }
+  ]
+}

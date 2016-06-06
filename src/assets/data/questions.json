@@ -1,0 +1,110 @@
+{
+  "pages": [
+    {
+      "title": "Survey example",
+      "description": "This quiz shows some not graded questions examples with a some required questions (1 to 3), but you can include all kind of questions in a not graded quiz: single answer, multiple answer, matching pairs, sequence, etc.",
+      "questions": [
+        {
+          "type": "single-answer",
+          "qID": "Reference",
+          "statement": "How did you hear about QuickQuiz?",
+          "choicesType": "radio",
+          "choices": [
+            "Searching in CodeCanyon",
+            "From a friend",
+            "Internet search",
+            "Facebook",
+            "Twitter"
+          ],
+          "other": {
+            "text": "Other",
+            "placeholder": "You can specify your answer",
+            "position": "right"
+          },
+          "required": true
+        },
+        {
+          "type": "matrix",
+          "qID": "K",
+          "statement": "How much do you know about...?",
+          "description": "<em>Don't worry, you don't need much knowledge to use this application.</em>",
+          "choicesType": "radio",
+          "choices": [
+            "Not at all",
+            "A little",
+            "Some",
+            "A lot"
+          ],
+          "rows": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "AngularJS"
+          ],
+          "rID": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "AngularJS"
+          ],
+          "required": true
+        },
+        {
+          "type": "likert-scale",
+          "qID": "Recommend",
+          "statement": "Would you recommend this app?",
+          "scaleType": "button",
+          "minValue": 1,
+          "maxValue": 10,
+          "scaleTextLeft": "Not at all likely",
+          "scaleTextRight": "Extremely likely",
+          "required": true
+        },
+        {
+          "type": "likert-scale",
+          "qID": "Doc_dif",
+          "statement": "Did you find it easy to understand documentation?",
+          "scaleType": "slider",
+          "minValue": 1,
+          "maxValue": 7,
+          "scaleTextLeft": "Very easy",
+          "scaleTextRight": "Very difficult",
+          "scaleTextCenter": "Average"
+        },
+        {
+          "type": "matrix",
+          "qID": "R",
+          "statement": "How do you rate the following?",
+          "choicesType": "rating",
+          "icon": "star",
+          "maxValue": 5,
+          "rows": [
+            "Design",
+            "Documentation",
+            "Easy to use",
+            "Price"
+          ],
+          "rID": [
+            "Design",
+            "Documentation",
+            "Easy",
+            "Price"
+          ]
+        },
+        {
+          "type": "rating",
+          "qID": "Support",
+          "statement": "If you have asked for support, how would you rate the support you received?",
+          "icon": "star",
+          "maxValue": 5
+        },
+        {
+          "type": "long-answer",
+          "qID": "Comments",
+          "statement": "Is there anything else you'd like to add?",
+          "placeholder": "Write your comments here"
+        }
+      ]
+    }
+  ]
+}
